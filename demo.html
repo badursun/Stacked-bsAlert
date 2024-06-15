@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stacked bsAlert</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-sm-12 col-12">
+                <h4>Bootstrap 4 & 5 Stacked bsAlert Plugin</h4>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-lg-6 col-sm-12 col-12">
+                <!-- Alert Group -->
+                <div class="alert-group" id="alert-group-1">
+                    <div class='alert alert-success alert-dismissible fade show'><strong>Alert 1</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-info alert-dismissible fade show'><strong>Alert 2</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-warning alert-dismissible fade show'><strong>Alert 3</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-danger alert-dismissible fade show'><strong>Alert 4</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-success alert-dismissible fade show'><strong>Alert 5</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-warning alert-dismissible fade show'><strong>Alert 6</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                </div>
+                <!-- Alert Group -->
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12">
+            	<h6>Usage</h6>
+            	<pre style="font-size: 11px;">
+&lt;script&gt;
+$(document).ready(function () {
+    $(&#39;.alert-group&#39;).StackedAlert({
+        visibleAlert    : 3,                // Number of alerts to show in a group
+        startIndex      : 1040,             // Initial index value of alerts in the group
+        appendClass     : &#39;custom-class&#39;,   // Extra class to be added to per alerts
+        stackRange      : 5                 // Spacing between the position of the stacked alerts
+    });
+});
+&lt;/script&gt;
+            	</pre>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-lg-6 col-sm-12 col-12">
+                <!-- Alert Group -->
+                <div class="alert-group" id="alert-group-2">
+                    <div class='alert alert-success alert-dismissible fade show'><strong>Alert 1</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-info alert-dismissible fade show'><strong>Alert 2</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-warning alert-dismissible fade show'><strong>Alert 3</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-danger alert-dismissible fade show'><strong>Alert 4</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-success alert-dismissible fade show'><strong>Alert 5</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-warning alert-dismissible fade show'><strong>Alert 6</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-danger alert-dismissible fade show'><strong>Alert 7</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-success alert-dismissible fade show'><strong>Alert 8</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                    <div class='alert alert-warning alert-dismissible fade show'><strong>Alert 9</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue quam, accumsan vel neque non, dignissim tempus sem. Praesent ut varius sem. Sed sed sem mauris. Nulla quam mi, euismod.</p><button type='button' class='close' data-dismiss='alert' aria-label='Close'> <span aria-hidden='true'>&times;</span> </button>
+                    </div>
+                </div>
+                <!-- Alert Group -->
+            </div>
+            <div class="col-lg-6 col-sm-12 col-12">
+            	<h6>Usage</h6>
+            	<pre style="font-size: 11px;">
+&lt;script&gt;
+$(document).ready(function () {
+    $(&#39;.alert-group&#39;).StackedAlert({
+        visibleAlert    : 2,                // Number of alerts to show in a group
+        startIndex      : 1040,             // Initial index value of alerts in the group
+        appendClass     : &#39;custom-class&#39;,   // Extra class to be added to per alerts
+        stackRange      : 10                 // Spacing between the position of the stacked alerts
+    });
+});
+&lt;/script&gt;
+            	</pre>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/stacked-bsAlert-jquery.js"></script>
+    <script>
+		$(document).ready(function () {
+		    $('#alert-group-1').StackedAlert({
+		        visibleAlert    : 4,                // Number of alerts to show in a group
+		        startIndex      : 1040,             // Initial index value of alerts in the group
+		        appendClass     : 'custom-class',   // Extra class to be added to per alerts
+		        stackRange      : 5                 // Spacing between the position of the stacked alerts
+		    });
+
+		    $('#alert-group-2').StackedAlert({
+		        visibleAlert    : 2,                // Number of alerts to show in a group
+		        startIndex      : 1040,             // Initial index value of alerts in the group
+		        appendClass     : 'custom-class',   // Extra class to be added to per alerts
+		        stackRange      : 10                 // Spacing between the position of the stacked alerts
+		    });
+		});
+    </script>
+</body>
+</html>
