@@ -2,6 +2,8 @@
 
 Stacked bsAlert is a jQuery plugin designed to stack multiple Bootstrap alerts into a neat, visually appealing format. This plugin allows you to configure various options such as the number of visible alerts, z-index start point, and custom classes for alerts.
 
+<img width="583" alt="sample-view" src="https://github.com/badursun/Stacked-bsAlert/assets/5244451/ab8cff18-f1a3-4c4c-a0c0-bcfcc92f9a7f">
+
 ## Features
 
 - Stack multiple Bootstrap alerts in a clean format
