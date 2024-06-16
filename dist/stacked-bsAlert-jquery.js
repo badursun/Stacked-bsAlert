@@ -42,6 +42,7 @@
     }
 
     .alert-group:empty::before {
+        transition: all .4s ease;
         content: "Tüm Mesajlar Okunmuş";
         display: block;
         text-align: center;
@@ -51,6 +52,7 @@
         background-color: #f6f6f6;
         border-radius: 6px;
         overflow: hidden;
+        width: 100%;
     }
 
     .alert-group .alert.alert-success {
