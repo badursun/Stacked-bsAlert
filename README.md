@@ -50,13 +50,12 @@ Include the necessary CSS and JS files in your HTML:
 
 <script>
 	$(document).ready(function () {
-	    $('#alert-group-1').StackedAlert({
-	        visibleAlert    : 2,                // Number of alerts to show in a group
-	        startIndex      : 1040,             // Initial index value of alerts in the group
-	        appendClass     : 'custom-class',   // Extra class to be added to per alerts
-	        stackRange      : 5                 // Spacing between the position of the stacked alerts
-	    });
-
+		$('#alert-group-1').StackedAlert({
+			visibleAlert    : 2,                // Number of alerts to show in a group
+			startIndex      : 1040,             // Initial index value of alerts in the group
+			appendClass     : 'custom-class',   // Extra class to be added to per alerts
+			stackRange      : 5                 // Spacing between the position of the stacked alerts
+		});
 	});
 </script>
 ```
